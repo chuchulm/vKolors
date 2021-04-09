@@ -1,0 +1,282 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+    
+}
+
+
+.container-icons{
+    
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  z-index: 500;
+    
+}
+
+.iconoWhatsapp{
+  display: flex;
+  font-size: 3rem;
+  transition: all 300ms;
+  color: rgb(85, 180, 6);   
+  border: 5px solid white;
+  padding: .5rem;
+  border-radius: 60%;
+  background: white;
+
+    
+}
+
+.container-icons .iconoWhatsapp:hover{
+  transform: rotate(20deg);
+}
+
+
+
+
+
+
+
+@media(max-width: 400.98px){
+    
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+    
+}
+
+
+.container-icons{
+    
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  
+    
+}
+
+.iconoWhatsapp{
+  display: flex;
+  font-size: 80px;
+  transition: all 300ms;
+  color: rgb(85, 180, 6);   
+    
+}
+
+.container-icons .iconoWhatsapp:hover{
+  transform: rotate(20deg);
+} 
+   
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 578.98px){
+
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+     
+ }
+ 
+ 
+ .container-icons{
+     
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   z-index: 500;
+     
+ }
+ 
+ .iconoWhatsapp{
+   display: flex;
+   font-size: 80px;
+   transition: all 300ms;
+   color: rgb(85, 180, 6);   
+     
+ }
+
+ .container-icons .iconoWhatsapp:hover{
+   transform: rotate(20deg);
+ } 
+   
+  
+} 
+
+ 
+
+  
+
+
+
+
+@media screen and (min-width: 579px) and (max-width: 812.98px){
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+     
+ }
+ 
+ 
+ .container-icons{
+     
+   position: fixed;
+   bottom: 20px;
+   right: 18px;
+   z-index: 500;
+     
+ }
+ 
+ .iconoWhatsapp{
+   display: flex;
+   font-size: 80px;
+   transition: all 300ms;
+   color: rgb(85, 180, 6);   
+     
+ }
+
+ .container-icons .iconoWhatsapp:hover{
+   transform: rotate(20deg);
+ } 
+   
+    
+  
+   
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 813px) and  (max-width: 1111.98px) {
+
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+     
+ }
+ 
+ 
+ .container-icons{
+     
+   position: fixed;
+   bottom: 20px;
+   right: 200px;
+   z-index: 500;
+     
+ }
+ 
+ .iconoWhatsapp{
+   display: flex;
+   font-size: 80px;
+   transition: all 300ms;
+   color: rgb(85, 180, 6);   
+     
+ }
+
+ .container-icons .iconoWhatsapp:hover{
+   transform: rotate(20deg);
+ 
+  
+  }
+
+
+   
+  
+}
+
+
+
+
+@media screen and (min-width: 1024px) and  (max-width: 1367px) {
+      
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+      
+  }
+  
+  
+  .container-icons{
+      
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 500;
+      
+  }
+  
+  .iconoWhatsapp{
+    display: flex;
+    font-size: 80px;
+    transition: all 300ms;
+    color: rgb(85, 180, 6);   
+      
+  }
+ 
+  .container-icons .iconoWhatsapp:hover{
+    transform: rotate(20deg);
+  
+   
+   }
+ 
+ 
+
+}  
+
+
+
+@media screen and (min-width: 1112px) and  (max-width: 1380.99px) {
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+      
+  }
+  
+  
+  .container-icons{
+      
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 500;
+      
+  }
+  
+  .iconoWhatsapp{
+    display: flex;
+    font-size: 80px;
+    transition: all 300ms;
+    color: rgb(85, 180, 6);   
+      
+  }
+  
+  .container-icons .iconoWhatsapp:hover{
+    transform: rotate(20deg);
+  }
+  
+}  
+   
+  
+

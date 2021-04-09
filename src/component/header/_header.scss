@@ -1,0 +1,475 @@
+.container{
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+}
+
+
+
+.img__header{
+
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    
+    position: relative;
+    width: 100vw;
+    height: auto;
+    
+    
+}
+
+.nav__hero{
+    color: $black1;
+    height: auto;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+   
+
+}
+
+.nav__container{
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.733);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: .5rem;
+  
+}
+
+.logo__navBar{
+    
+    width: 50%;
+    height: auto;
+    padding: .5rem;
+}
+
+.link{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2vw;
+    padding: 9px;
+}
+
+.link:hover{
+    color: red;
+}
+
+.link--active{
+    color: $red;
+    font-weight: 900;
+}
+
+.point{
+    color: $gold1;
+}
+
+
+
+.hero__main{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+.hero__textos{
+    width: 48%;
+}
+
+.title{
+     margin-top: 40%;
+    font-size: 3vw;
+    font-weight: 300;
+    color: $black1;
+    
+}
+
+.title--active{
+    color: rgb(199, 37, 37);
+    font-weight: 900;
+    text-shadow: $shadow  $color_shadow;
+}
+
+.copy{
+    font-size: 2.78vw;
+    color: $black1;
+    text-shadow: $shadow  $color_shadow;
+    margin: 15px 0;
+}
+
+.copy__active{
+    font-weight: 700;
+}
+
+
+
+
+// RESPONSIVE
+
+
+@media(max-width: 400.98px){
+
+   
+    
+    .links{
+        display: flex;
+        
+    }
+ 
+    .nav__container{
+        width: 100%;
+        height: 4.5rem;
+        background: rgba(255, 255, 255, 0.733);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 0;
+      
+    }
+
+    
+    .hero__main{
+        position: absolute;
+        top: 11%;
+        left: 3.5%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    
+    .hero__textos{
+        width: 48%;
+    }
+    
+    .title{
+         margin-top: 40%;
+        font-size: 3vw;
+        font-weight: 300;
+        color: $black1;
+        
+    }
+    
+    .title--active{
+        color: rgb(199, 37, 37);
+        font-weight: 900;
+        text-shadow: $shadow  $color_shadow;
+    }
+    
+    .copy{
+        font-size: 2.78vw;
+        color: $black1;
+        text-shadow: $shadow  $color_shadow;
+        margin: 15px 0;
+    }
+    
+    .copy__active{
+        font-weight: 700;
+    }
+    
+  
+    
+        
+        
+            
+}
+    
+    
+@media screen and (min-width: 401px) and (max-width: 535.98px){
+    
+    .links{
+        display: flex;
+        
+    }
+ 
+    .nav__container{
+        width: 100%;
+        height: 4.5rem;
+        background: rgba(255, 255, 255, 0.733);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 0;
+      
+    }
+
+    
+    .hero__main{
+        position: absolute;
+        top: 7%;
+        left: 3%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    
+    .hero__textos{
+        width: 48%;
+    }
+    
+    .title{
+         margin-top: 40%;
+        font-size: 3vw;
+        font-weight: 300;
+        color: $black1;
+        
+    }
+    
+    .title--active{
+        color: rgb(199, 37, 37);
+        font-weight: 900;
+        text-shadow: $shadow  $color_shadow;
+    }
+    
+    .copy{
+        font-size: 2.78vw;
+        color: $black1;
+        text-shadow: $shadow  $color_shadow;
+        margin: 15px 0;
+    }
+    
+    .copy__active{
+        font-weight: 700;
+    }
+    
+    
+
+}
+      
+      
+      
+      
+ @media screen and (min-width: 536px) and (max-width: 577.8px){
+   
+
+    .nav__container{
+        width: 100%;
+        height: auto;
+        background: rgba(255, 255, 255, 0.733);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        padding: 0;
+      
+    }
+    
+    .hero__main{
+        position: absolute;
+        top: 7%;
+        left: 3%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    
+    .hero__textos{
+        width: 48%;
+    }
+    
+    .title{
+         margin-top: 40%;
+        font-size: 3vw;
+        font-weight: 300;
+        color: $black1;
+        
+    }
+    
+    .title--active{
+        color: rgb(199, 37, 37);
+        font-weight: 900;
+        text-shadow: $shadow  $color_shadow;
+    }
+    
+    .copy{
+        font-size: 2.78vw;
+        color: $black1;
+        text-shadow: $shadow  $color_shadow;
+        margin: 15px 0;
+    }
+    
+    .copy__active{
+        font-weight: 700;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 578px) and (max-width: 666.98px){
+
+
+
+
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px){
+
+
+
+
+}
+
+
+@media screen and (min-width: 736px) and (max-width: 767px){
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 833.99px){
+
+    .links{
+        display: flex;
+        
+    }
+ 
+    .nav__container{
+        width: 100%;
+        height: 8.5rem;
+        background: rgba(255, 255, 255, 0.733);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 0;
+      
+    }
+
+    
+    .hero__main{
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    
+  
+    
+
+}
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+@media screen and (min-width: 834px) and  (max-width: 895.98px) {
+
+    
+
+}
+  
+
+  @media screen and (min-width: 896px) and  (max-width: 1023.98px) {
+
+   
+  
+  }
+  
+
+
+
+      
+      
+ @media screen and (min-width: 1024px) and  (max-width: 1239.98px) {
+      
+ 
+}  
+
+
+
+
+@media screen and (min-width: 1240px) and  (max-width: 1379.98px) {
+      
+
+}  
+
+
+
+
+@media screen and (min-width: 1380px) and  (max-width: 1450px) {
+      
+  
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
