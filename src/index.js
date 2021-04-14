@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/styles.scss'
-import App from './App';
 import 'antd/dist/antd.css';
+import Routes from './routes';
 
 
 
@@ -10,7 +10,7 @@ import 'antd/dist/antd.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes/>
   </React.StrictMode>,
   document.getElementById('root')
 );

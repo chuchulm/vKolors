@@ -1,9 +1,19 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import logo from '../../image/logo02.png'
 import logo1 from '../../image/logo01.png'
 import imgHeader from '../../image/v9.jpg'
 
+import { Menu, Dropdown } from 'antd';
+import { DownOutlined } from '@ant-design/icons';
+
+    
+
+
 export const Header = () => {
+
+    
+
     return (
         
         <header className="hero">
@@ -15,9 +25,13 @@ export const Header = () => {
                     </div>
 
                     <div className="links">
-                        <a href="#" className="link">Inicio</a>
-                        <a href="#" className="link">Nosotros</a>
-                        <a href="#" className="link">Contactenos</a>
+                    <Link to="/" className="link">inicio</Link>
+                    <Link to="/catalogo/inicio" className="link">Catalogo</Link>
+                    <Link to="/nosotros" className="link">Nosotros</Link> 
+                       
+                        
+                      
+                
                     </div>
                 </div>
             </nav>
@@ -31,6 +45,8 @@ export const Header = () => {
                 </div>
               
             </section>
+
+            
         </header>
             
     

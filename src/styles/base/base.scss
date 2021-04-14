@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
 
 
 *{
@@ -9,7 +8,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
     overflow-X: hidden;
 }
 
@@ -22,22 +21,30 @@ body{
     
   }
 
-  .col-1{
-    flex: 1 1 25rem;
-  }
+.rowCatalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
   
-  .col-2{
-    flex: 2 1 50rem;
-  }
+}
+.col{
+  flex: 1 1 5rem;
+}
+.col-1{
+  flex: 1 1 25rem;
+}
 
-
+.col-2{
+  flex: 2 1 50rem;
+}
 
   /* Image  */
 
-img{ 
-    border-radius: 0.5rem;
+// img{ 
+//     border-radius: 0.5rem;
   
-  }
+//   }
   
   img.small{
     max-width: 5rem;
@@ -50,5 +57,5 @@ img{
   }
   
   img.large{
-  width: 95%;
+  width: 100%;
   }
