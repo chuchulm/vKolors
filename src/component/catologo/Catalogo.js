@@ -6,6 +6,7 @@ import { ClaseAScreen } from './screenPinturas/ClaseAScreen';
 import { ClaseBScreen } from './screenPinturas/ClaseBScreen';
 import { Satinado } from './screenPinturas/SatinadoScreen';
 import { Inicio } from './screenPinturas/Inicio';
+import { PinturaEsmalte } from './screenPinturas/PinturaEsmalte';
 
 
 
@@ -49,6 +50,7 @@ const onOpenChange = keys => {
                        <Menu.Item key="3"><Link to="/catalogo/claseB"> Clase B</Link></Menu.Item>
                        <Menu.Item key="4"><Link to="/catalogo/satinado"> Caucho satinado</Link></Menu.Item>              
                        <Menu.Item key="5"><Link to="/catalogo/impermeabilizanteScreen">Impermeabilizante</Link></Menu.Item>
+                       <Menu.Item key="5"><Link to="/catalogo/esmalte">Pintura Esmalte</Link></Menu.Item>
                      </SubMenu>
                      
                      
@@ -68,7 +70,8 @@ const onOpenChange = keys => {
                   <Route path= "/catalogo/impermeabilizanteScreen" component ={PinturaImpermeabilizanteScreen}/>
                   <Route path= "/catalogo/claseA" component ={ClaseAScreen}/>
                   <Route path= "/catalogo/claseB" component ={ClaseBScreen}/>
-                  <Route path= "/catalogo/satinado" component ={Satinado}/>                  
+                  <Route path= "/catalogo/satinado" component ={Satinado}/>    
+                  <Route path= "/catalogo/esmalte" component ={PinturaEsmalte}/>                       
                  </Switch>
            </div>
         </div>

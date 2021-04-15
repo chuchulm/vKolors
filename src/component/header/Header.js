@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import logo from '../../image/logo02.png'
 import logo1 from '../../image/logo01.png'
 import imgHeader from '../../image/v9.jpg'
 
-import { Menu, Dropdown } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
+
 
     
 
 
 export const Header = () => {
+ 
+    const [siderbarIsOpen, setSidebarIsOpen] = useState(false);
+
 
     
 
@@ -24,15 +26,44 @@ export const Header = () => {
                        <img src={logo} alt="" className="logo__navBar"/>
                     </div>
 
-                    <div className="links">
-                    <Link to="/" className="link">inicio</Link>
-                    <Link to="/catalogo/inicio" className="link">Catalogo</Link>
-                    <Link to="/nosotros" className="link">Nosotros</Link> 
-                       
-                        
-                      
-                
+                    <div className="links ">
+                   
+                     
+                         <i className="fa fa-bars open-sidebar"  onClick={()=> setSidebarIsOpen(true)}></i>
+                             
                     </div>
+
+                    <aside className={siderbarIsOpen? 'open' : ''}>
+                   
+                        <ul>
+                            <li>
+                                <div className="categories" >
+                                    <div> <Link to="/"> <button className="link">Inicio</button></Link></div>
+                                    <div><Link to="/catalogo/inicio"><button className="link">Catalogo</button></Link></div>
+                                    <div><Link to="/nosotros"><button className="link">Nosotros</button></Link></div>
+                                   
+                                    
+                                    
+
+                                </div>
+                                
+                                <div className="close">
+                                <i className="far fa-window-close close-sidebar" onClick={() => setSidebarIsOpen(false)}></i>
+                                </div>
+                                
+                             
+
+                               
+                            
+                            </li>
+
+                           
+                        </ul>
+                    </aside>
+
+                    
+
+                    
                 </div>
             </nav>
     

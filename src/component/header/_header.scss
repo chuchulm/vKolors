@@ -53,17 +53,33 @@
     padding: .5rem;
 }
 
+.links{
+    margin-right: 5rem;
+    
+    
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
 .link{
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
+    height: 3.5rem;
+    margin-top: 4.5rem;
+    background: red;
+    color:white ;
     font-weight: 600;
-    font-size: 1.5vw;
-    padding: 9px;
+    font-size: 1.5rem;
+
+    
 }
 
 .link:hover{
-    color: red;
+    color: rgb(255, 255, 255);
 }
 
 .link--active{
@@ -129,6 +145,107 @@
     
     .links{
         display: flex;
+        margin-right: 1rem;
+        
+    }
+ 
+    .nav__container{
+        width: 100%;
+        height: 4.5rem;
+        background: rgba(255, 255, 255, 0.733);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 0d
+      
+    }
+
+    
+    .hero__main{
+        position: absolute;
+        top: 11%;
+        left: 3.5%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    
+    .hero__textos{
+        width: 48%;
+    }
+    
+    .title{
+         margin-top: 40%;
+        font-size: 3vw;
+        font-weight: 300;
+        color: $black1;
+        
+    }
+    
+    .title--active{
+        color: rgb(199, 37, 37);
+        font-weight: 900;
+        text-shadow: $shadow  $color_shadow;
+    }
+    
+    .copy{
+        font-size: 2.78vw;
+        color: $black1;
+        text-shadow: $shadow  $color_shadow;
+        margin: 15px 0;
+    }
+    
+    .copy__active{
+        font-weight: 700;
+    }
+
+    .categories{
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .link{
+        width: 7rem;
+        display: inline-block;
+        margin-top: 4.5rem;
+        background: red;
+        color:white ;
+        font-size: 1rem;
+        font-weight: 800;
+        
+        
+        
+    }
+
+.link:hover{
+    color: red;
+}
+
+.link--active{
+    color: $red;
+    font-weight: 900;
+}
+
+    
+  
+    
+        
+        
+            
+}
+    
+    
+@media screen and (min-width: 401px) and (max-width: 535.98px){
+    
+    .links{
+        display: flex;
+        margin-right: 1rem;
         
     }
  
@@ -186,114 +303,30 @@
         font-weight: 700;
     }
 
-
-.link{
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.8vw;
-    padding: 9px;
-}
-
-.link:hover{
-    color: red;
-}
-
-.link--active{
-    color: $red;
-    font-weight: 900;
-}
-
-    
-  
-    
-        
-        
-            
-}
-    
-    
-@media screen and (min-width: 401px) and (max-width: 535.98px){
-    
-    .links{
+    .categories{
         display: flex;
-        
-    }
- 
-    .nav__container{
-        width: 100%;
-        height: 4.5rem;
-        background: rgba(255, 255, 255, 0.733);
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: flex;
-        align-items: center;
-        padding: 0;
-      
-    }
 
-    
-    .hero__main{
-        position: absolute;
-        top: 7%;
-        left: 3%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        
-    }
-    
-    
-    .hero__textos{
-        width: 48%;
-    }
-    
-    .title{
-         margin-top: 40%;
-        font-size: 3vw;
-        font-weight: 300;
-        color: $black1;
-        
-    }
-    
-    .title--active{
-        color: rgb(199, 37, 37);
-        font-weight: 900;
-        text-shadow: $shadow  $color_shadow;
-    }
-    
-    .copy{
-        font-size: 2.78vw;
-        color: $black1;
-        text-shadow: $shadow  $color_shadow;
-        margin: 15px 0;
-    }
-    
-    .copy__active{
-        font-weight: 700;
     }
 
     .link{
-        display: inline-block;
-        color: inherit;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 1.8vw;
-        padding: 9px;
+        margin-top: 4.5rem;
+        background: red;
+        color:white ;
+        
+        
     }
+
+   .link:hover{
+    color: red;
+   }
+
+   .link--active{
+    color: $red;
+    font-weight: 900;
+   }
+
     
-    .link:hover{
-        color: red;
-    }
-    
-    .link--active{
-        color: $red;
-        font-weight: 900;
-    }
-    
-    
+  
 
 }
       

@@ -1,12 +1,12 @@
 import React from 'react'
-import img from '../../../image/p1.png'
+import img from '../../../image/p9.png'
 
-export const PinturaImpermeabilizanteScreen = () => {
+export const PinturaEsmalte = () => {
     return (
         <div className="containerClass">
             <div className="row">
                 <div className="col-1 container-text">
-                    <h1>Pintura Impermeabilizante </h1>
+                    <h1>Pintura Clase A </h1>
                     <p>
                         La Linea Kolor Satinado es la clase “A” de pintura Satinada, de Pinturas VKOLOR,
                         formulada con materias primas de la más alta calidad para brindar un máximo cubrimiento y durabilidad.

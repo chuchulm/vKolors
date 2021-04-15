@@ -1,7 +1,7 @@
 import React from 'react'
 import imgA from '../../../image/p4.png'
  
-export const ClaseAScreen = () => {
+export const ClaseAScreen = () => { 
     return (
         <div className="containerClass">
             <div className="row">
