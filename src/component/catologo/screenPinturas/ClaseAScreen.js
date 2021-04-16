@@ -40,11 +40,18 @@ export const ClaseAScreen = () => {
                     <p>
                         4 horas.
                     </p>
+
+                    <h2>Presentacion</h2>
+                    <p>
+                       Galón <br/>
+                       Cuñete de 4 Galones<br/>
+                       Cuñete de 5 Galones
+                    </p>
     
                     
                 </div>
             <div className="col-1">
-                <img src={imgA} alt="" className="imgPinturascreen medium" />
+                <img src={imgA} alt="" className="imgPinturascreen large" />
                 
             </div>
         </div>

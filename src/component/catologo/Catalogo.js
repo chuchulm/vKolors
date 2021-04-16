@@ -46,25 +46,25 @@ const onOpenChange = keys => {
                      
                      <SubMenu key="sub1"  title="Pinturas">
                      
-                       <Menu.Item key="2"><Link to="/catalogo/claseA"> Clase A</Link></Menu.Item>
-                       <Menu.Item key="3"><Link to="/catalogo/claseB"> Clase B</Link></Menu.Item>
-                       <Menu.Item key="4"><Link to="/catalogo/satinado"> Caucho satinado</Link></Menu.Item>              
-                       <Menu.Item key="5"><Link to="/catalogo/impermeabilizanteScreen">Impermeabilizante</Link></Menu.Item>
+                       <Menu.Item key="1"><Link to="/catalogo/claseA"> Clase A</Link></Menu.Item>
+                       <Menu.Item key="2"><Link to="/catalogo/claseB"> Clase B</Link></Menu.Item>
+                       <Menu.Item key="3"><Link to="/catalogo/satinado"> Caucho satinado</Link></Menu.Item>              
+                       <Menu.Item key="4"><Link to="/catalogo/impermeabilizanteScreen">Impermeabilizante</Link></Menu.Item>
                        <Menu.Item key="5"><Link to="/catalogo/esmalte">Pintura Esmalte</Link></Menu.Item>
                      </SubMenu>
                      
                      
                      <SubMenu key="sub2"  title="Otros Productos ">
-                       <Menu.Item key="5">Primer VK-10</Menu.Item>
-                       <Menu.Item key="6">Fondo de herreria</Menu.Item>
-                       <Menu.Item key="7">Pasta para paredes</Menu.Item>
+                       <Menu.Item key="6">Primer VK-10</Menu.Item>
+                       <Menu.Item key="7">Fondo de herreria</Menu.Item>
+                       <Menu.Item key="8">Pasta para paredes</Menu.Item>
                      </SubMenu>
                  </Menu>
              </div>
                 
            </div>
 
-           <div className="col-2">
+           <div className="col-2 ">
                 <Switch>
                   <Route path= "/catalogo/inicio" component ={Inicio}/>
                   <Route path= "/catalogo/impermeabilizanteScreen" component ={PinturaImpermeabilizanteScreen}/>
