@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../image/p6.png'
+import img from '../../../image/vk6.png'
 
 export const Satinado = () => {
     return (
@@ -44,7 +44,7 @@ export const Satinado = () => {
                     
                 </div>
             <div className="col-1">
-                <img src={img} alt="" className="imgPinturascreen medium" />
+                <img src={img} alt="" className=" large" />
                 
             </div>
         </div>

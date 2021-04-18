@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../image/p9.png'
+import img from '../../../image/vk9.png'
 
 export const PinturaEsmalte = () => {
     return (
@@ -44,7 +44,7 @@ export const PinturaEsmalte = () => {
                     
                 </div>
             <div className="col-1">
-                <img src={img} alt="" className="imgPinturascreen medium" />
+                <img src={img} alt="" className=" large" />
                 
             </div>
         </div>

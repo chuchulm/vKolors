@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../image/p1.png'
+import img from '../../../image/vk1.png'
 
 export const PinturaImpermeabilizanteScreen = () => {
     return (
@@ -43,7 +43,14 @@ export const PinturaImpermeabilizanteScreen = () => {
                         mano con el mismo método.
                     </p>
 
-                    <h2>Secamiento al tacto</h2>
+                    
+    
+                    
+                </div>
+            <div className="col-1 container-text">
+                <img src={img} alt="" className="large " />
+
+                <h2>Secamiento al tacto</h2>
                     <p>
                        60 minutos.
                     </p>
@@ -59,11 +66,6 @@ export const PinturaImpermeabilizanteScreen = () => {
                        Cuñete de 4 Galones<br/>
                        Cuñete de 5 Galones
                     </p>
-    
-                    
-                </div>
-            <div className="col-1">
-                <img src={img} alt="" className="imgPinturascreen medium" />
                 
             </div>
         </div>

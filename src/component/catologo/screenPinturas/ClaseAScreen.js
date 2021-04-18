@@ -1,5 +1,5 @@
 import React from 'react'
-import imgA from '../../../image/p4.png'
+import imgA from '../../../image/vk4.png'
  
 export const ClaseAScreen = () => { 
     return (
@@ -51,7 +51,7 @@ export const ClaseAScreen = () => {
                     
                 </div>
             <div className="col-1">
-                <img src={imgA} alt="" className="imgPinturascreen large" />
+                <img src={imgA} alt="" className="imgPinturascreen " />
                 
             </div>
         </div>

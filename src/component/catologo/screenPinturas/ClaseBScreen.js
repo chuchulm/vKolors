@@ -1,5 +1,5 @@
 import React from 'react'
-import imgB from '../../../image/p8.png'
+import imgB from '../../../image/vk5.png'
 
 export const ClaseBScreen = () => {
     return (
@@ -50,7 +50,7 @@ export const ClaseBScreen = () => {
                     
                 </div>
             <div className="col-1">
-                <img src={imgB} alt="" className="imgPinturascreen medium" />
+                <img src={imgB} alt="" className=" large" />
                 
             </div>
         </div>
