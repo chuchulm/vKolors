@@ -96,10 +96,13 @@
 
 
 .buttonCatalogo{
-    color: black;
-    background: none;
-    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+    background: rgb(248, 5, 5);
+    font-weight: 1000;
     box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
+    width: 11rem;
+    height: 4rem;
 }
 
 
