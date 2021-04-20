@@ -7,6 +7,7 @@ import { ClaseBScreen } from './screenPinturas/ClaseBScreen';
 import { Satinado } from './screenPinturas/SatinadoScreen';
 import { Inicio } from './screenPinturas/Inicio';
 import { PinturaEsmalte } from './screenPinturas/PinturaEsmalte';
+import IconoWhatsapp from '../whatsapp/iconoWhatsapp';
 
 
 
@@ -66,6 +67,7 @@ const onOpenChange = keys => {
            </div>
 
            <div className="col-2 ">
+           <IconoWhatsapp/>
                 <Switch>
                   <Route path= "/catalogo/inicio" component ={Inicio}/>
                   <Route path= "/catalogo/impermeabilizanteScreen" component ={PinturaImpermeabilizanteScreen}/>

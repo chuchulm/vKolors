@@ -12,7 +12,7 @@ export const Footer = () => {
                         <div className="row">
                             <div className="col ">
                                 <img src={tlf}alt="" className="icon-footer"/>
-                                <p ><span> +58 424 1338683</span></p>
+                                <p ><span> +58 0424-2015915</span></p>
                                 <p><span> 0212-4810666</span></p>
                             </div>
                             <div className="col">
