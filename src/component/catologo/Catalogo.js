@@ -46,18 +46,19 @@ const onOpenChange = keys => {
                      
                      <SubMenu key="sub1"  title="Pinturas">
                      
-                       <Menu.Item key="1"><Link to="/catalogo/claseA"> Clase A</Link></Menu.Item>
-                       <Menu.Item key="2"><Link to="/catalogo/claseB"> Clase B</Link></Menu.Item>
-                       <Menu.Item key="3"><Link to="/catalogo/satinado"> Caucho satinado</Link></Menu.Item>              
-                       <Menu.Item key="4"><Link to="/catalogo/impermeabilizanteScreen">Impermeabilizante</Link></Menu.Item>
-                       <Menu.Item key="5"><Link to="/catalogo/esmalte">Pintura Esmalte</Link></Menu.Item>
+                       <Menu.Item key="1"><Link to="/catalogo/claseA">Pintura caucho mate clase A</Link></Menu.Item>
+                       <Menu.Item key="2"><Link to="/catalogo/claseB">Pintura caucho mate clase B</Link></Menu.Item>
+                       <Menu.Item key="3"><Link to="/catalogo/satinado">Pintura semi brillante satinado clase A</Link></Menu.Item>              
+                       <Menu.Item key="4"><Link to="/catalogo/impermeabilizanteScreen">Pintura Impermeabilizante clase A</Link></Menu.Item>
+                       <Menu.Item key="5"><Link to="/catalogo/esmalte">Pintura Alquidica Esmalte, brillante clase A</Link></Menu.Item>
+                       <Menu.Item key="6"><Link to="/catalogo/esmalte/mate">Pintura Alquidica Esmalte, mate clase A</Link></Menu.Item>
                      </SubMenu>
                      
                      
                      <SubMenu key="sub2"  title="Otros Productos ">
-                       <Menu.Item key="6">Primer VK-10</Menu.Item>
-                       <Menu.Item key="7">Fondo de herreria</Menu.Item>
-                       <Menu.Item key="8">Pasta para paredes</Menu.Item>
+                       <Menu.Item key="7">Primer VK-10</Menu.Item>
+                       <Menu.Item key="8">Fondo de Herrería (Anticorrosivo)</Menu.Item>
+                       <Menu.Item key="9">Pasta Profesional</Menu.Item>
                      </SubMenu>
                  </Menu>
              </div>
@@ -71,7 +72,8 @@ const onOpenChange = keys => {
                   <Route path= "/catalogo/claseA" component ={ClaseAScreen}/>
                   <Route path= "/catalogo/claseB" component ={ClaseBScreen}/>
                   <Route path= "/catalogo/satinado" component ={Satinado}/>    
-                  <Route path= "/catalogo/esmalte" component ={PinturaEsmalte}/>                       
+                  <Route path= "/catalogo/esmalte" component ={PinturaEsmalte}/>   
+                  <Route path= "/catalogo/esmalte/mate" component ={PinturaEsmalte}/>                      
                  </Switch>
            </div>
         </div>
