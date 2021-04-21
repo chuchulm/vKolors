@@ -28,8 +28,10 @@ export const Header = () => {
 
                     <div className="links ">
                    
-                     
-                         <i className="fa fa-bars open-sidebar"  onClick={()=> setSidebarIsOpen(true)}></i>
+                       <button className=" open-sidebar" onClick={()=> setSidebarIsOpen(true)}>
+                       <i className="fa fa-bars icon"  ></i>
+                       </button>
+                         
                              
                     </div>
 

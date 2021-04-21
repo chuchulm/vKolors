@@ -10,17 +10,17 @@ export const CarouselMain = () => {
     return (
         <div className="container-carousel">
             <Carousel autoplay>
-                <div>
+                <div className="container-carousel1">
                   <img src={img1} alt="" className=" img-carousel"/>
                 </div>
-                <div>
+                <div className="container-carousel1">
                   <img src={img2} alt="" className=" img-carousel"/>
                 </div>
-                <div>
+                <div className="container-carousel1">
                   <img src={img3} alt="" className=" img-carousel"/>
                 </div>
               
-            </Carousel>,
+            </Carousel>
             
         </div>
     )

@@ -14,7 +14,7 @@ export const Main3 = () => {
         <h2 className="subtitle">Catalogo de productos</h2>
         <p className="copy__section">Tenemos la mejor gama de productos para su hogar</p>
          
-         <Link to="/catalogo/inicio" ><button className="buttonCatalogo">Catologo de Produtos</button></Link>
+         <Link to="/catalogo/inicio" ><button className="buttonCatalogo">Catalogo</button></Link>
 
         <article className="container-bg">
             <div className="card">

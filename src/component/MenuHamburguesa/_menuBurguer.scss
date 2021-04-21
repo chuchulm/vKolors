@@ -16,10 +16,10 @@ aside.open{
 .open-sidebar{
 
     
-   
+    // border: none;
     width: 5rem;
     height: auto;
-    font-size: 3rem;
+    // font-size: 3rem;
     padding: 1rem;
     background: none;
     cursor: pointer;
@@ -28,7 +28,7 @@ aside.open{
 }
 
 .open-sidebar:hover{
-    
+    border: none;
     color: rgb(146, 139, 139);
 }
 
@@ -70,21 +70,24 @@ aside li{
     
     .open-sidebar{
 
-      
-        width: 3.8rem;
-        height: 3.8rem;
-        font-size: 1.8rem;
-        cursor: pointer;
+        
+        border: none;
+        font-size: 2.1rem;
+        
        
     
+    }
+
+
+    .icon{
+        cursor: pointer;
     }
 
 
     
     
     .open-sidebar:hover{
-        // border: 1px solid rgb(185, 180, 180);
-        // color: rgb(146, 139, 139);
+        border: none;
     }
     
     aside ul{
@@ -136,8 +139,7 @@ aside li{
     
     .open-sidebar{
 
-        // border: 1px solid black;
-        border-radius: 1rem;
+        border: none;
         width: 3.8rem;
         height: 3.8rem;
         font-size: 1.8rem;
@@ -150,8 +152,7 @@ aside li{
     
     
     .open-sidebar:hover{
-        // border: 1px solid rgb(185, 180, 180);
-        // color: rgb(146, 139, 139);
+        border: none;
     }
     
     aside ul{
@@ -206,8 +207,7 @@ aside li{
     
     .open-sidebar{
 
-        // border: 1px solid black;
-        border-radius: 1rem;
+        border: none;
         width: 3.8rem;
         height: 3.8rem;
         font-size: 1.8rem;
@@ -220,8 +220,7 @@ aside li{
     
     
     .open-sidebar:hover{
-        // border: 1px solid rgb(185, 180, 180);
-        // color: rgb(146, 139, 139);
+        border: none;
     }
     
     aside ul{
@@ -272,8 +271,7 @@ aside li{
     
     .open-sidebar{
 
-        // border: 1px solid black;
-        border-radius: 1.2rem;
+        border: none;
         width: 3.8rem;
         height: 3.8rem;
         font-size: 1.8rem;
@@ -286,8 +284,7 @@ aside li{
     
     
     .open-sidebar:hover{
-        // border: 1px solid rgb(185, 180, 180);
-        // color: rgb(146, 139, 139);
+        border: none;
     }
     
     aside ul{

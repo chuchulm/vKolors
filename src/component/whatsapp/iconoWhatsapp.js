@@ -8,7 +8,7 @@ function IconoWhatsapp(){
 
     <div className="container-icons">
 
-        <a href="https://api.whatsapp.com/send?phone=+584241338683" target="blank"><i class="fab fa-whatsapp iconoWhatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+584242015915" target="blank"><i class="fab fa-whatsapp iconoWhatsapp"></i></a>
       
     </div>
     )
@@ -16,4 +16,5 @@ function IconoWhatsapp(){
 export default IconoWhatsapp;
 
 
-{/* <h2 className="fab fa-whatsapp iconoWhatsapp"></h2> */}
+
+
