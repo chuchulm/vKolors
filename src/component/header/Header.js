@@ -33,7 +33,7 @@ export const Header = () => {
                        <img src={logo} alt="" className="logo__navBar" data-aos="fade-down-right"/>
                     </div>
 
-                    <div className="links " data-aos="fade-left">
+                    <div className="links ">
                    
                      
                        <i className="fa fa-bars icon  open-sidebar"  onClick={()=> setSidebarIsOpen(true)}></i>
