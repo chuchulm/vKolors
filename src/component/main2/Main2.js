@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import FotoMain3 from '../../image/v5.jpg'
 import img2 from '../../image/vkolor2.jpg'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 
 export const Main2 = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+        
+      }, []);
+
+
     return (
         <div className="background-section-main3 ">
 
@@ -15,7 +24,7 @@ export const Main2 = () => {
         </div>
 
             <div className="container__seccion-3 ">
-                <div className="col-1">
+                <div className="col-1" data-aos="fade-right">
                     <div>
                         <p>
                             En Pinturas Vkolor de Venezuela sabemos que son tiempos de verdaderos retos,
@@ -29,7 +38,7 @@ export const Main2 = () => {
                     </div> 
                 </div>
             
-                <div className=" col-1">
+                <div className=" col-1" data-aos="fade-left">
                     <img src={FotoMain3} className="imagen__main3 " alt=""/>
                 </div>
         
