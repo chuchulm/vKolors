@@ -50,7 +50,7 @@ export const ClaseBScreen = () => {
                     
                 </div>
             <div className="col-1">
-                <img src={imgB} alt="" className=" large" />
+                <img src={imgB} alt="" className=" imgPinturascreenB " />
                 
             </div>
         </div>

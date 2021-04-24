@@ -4,7 +4,7 @@ import img from '../../../image/vk1.png'
 export const PinturaImpermeabilizanteScreen = () => {
     return (
         <div className="containerClass">
-            <div className="row">
+            <div className="row top">
                 <div className="col-1 container-text">
                     <h1>Pintura Impermeabilizante </h1>
                     <p>
@@ -48,7 +48,7 @@ export const PinturaImpermeabilizanteScreen = () => {
                     
                 </div>
             <div className="col-1 container-text">
-                <img src={img} alt="" className="large " />
+                <img src={img} alt="" className="imgPinturascreen  " />
 
                 <h2>Secamiento al tacto</h2>
                     <p>

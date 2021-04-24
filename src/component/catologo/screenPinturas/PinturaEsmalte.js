@@ -4,7 +4,7 @@ import img from '../../../image/vk9.png'
 export const PinturaEsmalte = () => {
     return (
         <div className="containerClass">
-            <div className="row">
+            <div className="row top">
                 <div className="col-1 container-text">
                     <h1>Pintura Clase A </h1>
                     <p>
@@ -44,7 +44,7 @@ export const PinturaEsmalte = () => {
                     
                 </div>
             <div className="col-1">
-                <img src={img} alt="" className=" large" />
+                <img src={img} alt="" className=" imgPinturascreen " />
                 
             </div>
         </div>

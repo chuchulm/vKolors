@@ -4,7 +4,7 @@ import img from '../../../image/vk6.png'
 export const Satinado = () => {
     return (
         <div className="containerClass">
-            <div className="row">
+            <div className="row top">
                 <div className="col-1 container-text">
                     <h1>Pintura Impermeabilizante </h1>
                     <p>
