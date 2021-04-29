@@ -8,6 +8,9 @@ import { Satinado } from './screenPinturas/SatinadoScreen';
 import { Inicio } from './screenPinturas/Inicio';
 import { PinturaEsmalte } from './screenPinturas/PinturaEsmalte';
 import IconoWhatsapp from '../whatsapp/iconoWhatsapp';
+import { Primervk10 } from './screenPinturas/Primer-vk10';
+import { PastaProfesional } from './screenPinturas/PastaProfesional';
+import { FondoHerreria } from './screenPinturas/FondoHerreria';
 
 
 
@@ -53,13 +56,14 @@ const onOpenChange = keys => {
                        <Menu.Item key="4"><Link to="/catalogo/impermeabilizanteScreen">Pintura Impermeabilizante clase A</Link></Menu.Item>
                        <Menu.Item key="5"><Link to="/catalogo/esmalte">Pintura Alquidica Esmalte, brillante clase A</Link></Menu.Item>
                        <Menu.Item key="6"><Link to="/catalogo/esmalte/mate">Pintura Alquidica Esmalte, mate clase A</Link></Menu.Item>
+                      
                      </SubMenu>
                      
                      
                      <SubMenu key="sub2"  title="Otros Productos ">
-                       <Menu.Item key="7">Primer VK-10</Menu.Item>
-                       <Menu.Item key="8">Fondo de Herrería (Anticorrosivo)</Menu.Item>
-                       <Menu.Item key="9">Pasta Profesional</Menu.Item>
+                       <Menu.Item key="7"><Link to="/catalogo/primervk10">Primer VK-10</Link></Menu.Item>
+                       <Menu.Item key="8"><Link to="/catalogo/fondoherreria">Fondo Herreria anticorrosivo</Link></Menu.Item>
+                       <Menu.Item key="9"><Link to="/catalogo/pastaprofesional">Pasta profesional</Link></Menu.Item>
                      </SubMenu>
                  </Menu>
              </div>
@@ -75,7 +79,10 @@ const onOpenChange = keys => {
                   <Route path= "/catalogo/claseB" component ={ClaseBScreen}/>
                   <Route path= "/catalogo/satinado" component ={Satinado}/>    
                   <Route path= "/catalogo/esmalte" component ={PinturaEsmalte}/>   
-                  <Route path= "/catalogo/esmalte/mate" component ={PinturaEsmalte}/>                      
+                  <Route path= "/catalogo/esmalte/mate" component ={PinturaEsmalte}/>    
+                  <Route path= "/catalogo/primervk10" component ={Primervk10}/>  
+                  <Route path= "/catalogo/fondoherreria" component ={FondoHerreria}/>                       
+                  <Route path= "/catalogo/pastaprofesional" component ={PastaProfesional}/>                                                           
                  </Switch>
            </div>
         </div>

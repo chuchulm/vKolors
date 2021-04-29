@@ -98,10 +98,11 @@
 .buttonCatalogo{
     color: rgb(255, 255, 255);
     background: rgb(248, 5, 5);
-    font-weight: 1000;
+    font-weight: 800;
+    font-size: 1.5rem;
     box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
-    width: 10rem;
-    height: 4rem;
+    width: 12rem;
+    height: 5rem;
 }
 
 
@@ -191,7 +192,7 @@
         background: rgb(248, 5, 5);
         font-weight: 1000;
         box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
-        width: 8rem;
+        width: 6rem;
         height: 3rem;
     }
     
@@ -289,7 +290,7 @@
         background: rgb(248, 5, 5);
         font-weight: 1000;
         box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
-        width: 8rem;
+        width: 6rem;
         height: 3rem;
     }
     
@@ -387,7 +388,7 @@
         background: rgb(248, 5, 5);
         font-weight: 1000;
         box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
-        width: 8rem;
+        width: 6rem;
         height: 3rem;
     }
     
@@ -480,7 +481,7 @@
         background: rgb(248, 5, 5);
         font-weight: 1000;
         box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
-        width: 8rem;
+        width: 6rem;
         height: 3rem;
     }
     
@@ -494,7 +495,14 @@
 @media screen and (min-width: 667px) and (max-width: 735px){
 
 
-
+    .buttonCatalogo{
+        color: rgb(255, 255, 255);
+        background: rgb(248, 5, 5);
+        font-weight: 1000;
+        box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.5), 11px 10px 13px 3px rgba(0,0,0,0.08);
+        width: 10rem;
+        height: 4rem;
+    }
 
 }
 
