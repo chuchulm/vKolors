@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../image/p10.png'
+import img from '../../../image/vk10.png'
  
 export const Primervk10 = () => { 
     return (

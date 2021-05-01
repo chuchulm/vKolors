@@ -26,14 +26,14 @@ export const Header = () => {
     return (
         
         <header className="hero">
-            <img src={imgHeader} alt="" className="img__header" data-aos="fade-right"/>
+            <img src={imgHeader} alt="" className="img__header" />
             <nav className="nav__hero">
                 <div className="container nav__container">
                     <div className="logo">
                        <img src={logo} alt="" className="logo__navBar" data-aos="fade-down-right"/>
                     </div>
 
-                    <div className="links ">
+                    <div className="links " data-aos="fade-left">
                    
                      
                        <i className="fa fa-bars icon  open-sidebar"  onClick={()=> setSidebarIsOpen(true)}></i>
@@ -78,7 +78,7 @@ export const Header = () => {
     
     
             <section className="container hero__main">  
-                <div className="hero__textos">
+                <div className="hero__textos" data-aos="fade-right">
                     <h1 className="title"> Le damos  <span className="title--active">Color a tus ideas</span></h1> 
           
                  

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { Link } from "react-router-dom";
-import img2 from '../../image/v1.jpg'
 import p1 from '../../image/p1.png'
 import p2 from '../../image/p2.png'
 import p3 from '../../image/p3.png'

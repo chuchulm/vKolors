@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 
 import FotoMain3 from '../../image/v5.jpg'
-import img2 from '../../image/vkolor2.jpg'
 import Aos from "aos"
 import "aos/dist/aos.css"
 
