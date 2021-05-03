@@ -11,6 +11,8 @@ import IconoWhatsapp from '../whatsapp/iconoWhatsapp';
 import { Primervk10 } from './screenPinturas/Primer-vk10';
 import { PastaProfesional } from './screenPinturas/PastaProfesional';
 import { FondoHerreria } from './screenPinturas/FondoHerreria';
+import { NavBar } from '../Navabar/NavBar';
+
 
 
 
@@ -37,18 +39,21 @@ const onOpenChange = keys => {
 }; 
 
     return (
+      <>
+     
         <div className="rowCatalogo">
+          
            <div className="col ">
              <div className="columna1">
              <Menu mode="inline" openKeys={openKeys} onOpenChange={onOpenChange} >
                 
                      
-                     <Menu.Item key="0"><Link to="/">Volver</Link></Menu.Item>
+                     <Menu.Item key="0"  className="volver"><Link to="/" className="volver">Inicio</Link></Menu.Item>
                      {/* <Menu.Item key="1"><Link to="/catalogo/inicio">Inicio</Link></Menu.Item> */}
                     
                   
                      
-                     <SubMenu key="sub1"  title="Pinturas">
+                     <SubMenu key="sub1"  title="Pinturas" id="pinturas">
                      
                        <Menu.Item key="1"><Link to="/catalogo/claseA">Pintura caucho mate clase A</Link></Menu.Item>
                        <Menu.Item key="2"><Link to="/catalogo/claseB">Pintura caucho mate clase B</Link></Menu.Item>
@@ -86,6 +91,9 @@ const onOpenChange = keys => {
                  </Switch>
            </div>
         </div>
+
+     
+      </>
         
     )
 }

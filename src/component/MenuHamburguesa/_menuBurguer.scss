@@ -19,10 +19,11 @@ aside.open{
     border: none;
     width: 5rem;
     height: auto;
-    font-size: 3rem;
+    font-size: 4.5rem;
     padding: 1rem;
     background: none;
     cursor: pointer;
+    z-index: 1000;
    
     
 
@@ -132,6 +133,7 @@ aside li{
         background-color: transparent;
         z-index: 1000;
         transform: translateX(-30rem);
+    
     }
     
     aside.open{
@@ -150,10 +152,19 @@ aside li{
     }
 
 
+      
+       
+        
+
+
+
+
+
     
     
     .open-sidebar:hover{
         border: none;
+        z-index: 1000;
     }
     
     aside ul{
@@ -332,7 +343,16 @@ aside li{
 
 @media screen and (min-width: 736px) and (max-width: 767px){
 
+    .open-sidebar{
 
+        border: none;
+        width: 3.8rem;
+        height: 3.8rem;
+        font-size: 1.8rem;
+        cursor: pointer;
+        z-index: 1000;
+    
+    }
 
 }
 

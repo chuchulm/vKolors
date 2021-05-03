@@ -12,21 +12,12 @@
 
 }
 
-// class
 
 .containerClass{
 
 background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  
-  
-  
-  
-  
-  
-  
     
     font-family: 'Noto Sans JP', sans-serif;
     
@@ -76,6 +67,7 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   
 }
 
+
 .imgPinturascreen{
   width: 100%;
   // margin-bottom: 20rem;
@@ -98,6 +90,53 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
    align-items: center;
    justify-content: center;
 }
+
+
+.ant-menu-item a::before{
+  color: #fff;
+  font-weight: 1000;
+  
+}
+
+.volver{
+  background-color: #2980B9 !important;
+  color: #fff !important;
+  font-weight: 1000 !important;
+}
+
+.volver:hover{
+  background-color: #4ea128 !important;
+  color: rgb(247, 245, 245) !important;
+  font-weight: 1000 !important;
+}
+
+.ant-menu-submenu-title{
+  background-color: #2980B9 ;
+  color: #fff;
+}
+.ant-menu-submenu-title:hover{
+  color: rgb(248, 248, 242) !important;
+  background-color: #4ea128;
+}
+
+
+i.ant-menu-submenu-arrow{
+  color: #FFFFFF;
+}
+
+i.ant-menu-submenu-arrow::before{
+  color: #FFFFFF !important;
+}
+
+i.ant-menu-submenu-arrow::after{
+  color: #FFFFFF !important;
+}
+
+
+
+
+
+
 
 
 

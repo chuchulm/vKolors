@@ -4,7 +4,7 @@ import direct from '../../image/location.svg'
 import email from '../../image/mail.svg'
 
 export const Footer = () => {
-    return (
+    return (  
         <div className="container-fuid-footer img__footer">
             
                 <div className="content__footer " >
@@ -32,11 +32,11 @@ export const Footer = () => {
             
                     <div className="container__li ">
                         <div className="redContainer ">
-                        <div class="copy"><p>&copy;2020 TODOS LOS DERECHOS RESERVADOS</p></div> 
+                        <div className="copy"><p>&copy;2020 TODOS LOS DERECHOS RESERVADOS</p></div> 
                             
-                            <div className="red"><i class="fab fa-instagram redes ins"></i></div>
-                            <div className="red"><i class="fab fa-whatsapp redes what"></i></div>
-                            <div className="red"><i class="fab fa-facebook redes f"></i></div>
+                            <div className="red"><i className="fab fa-instagram redes ins"></i></div>
+                            <div className="red"><i className="fab fa-whatsapp redes what"></i></div>
+                            <div className="red"><i className="fab fa-facebook redes f"></i></div>
                                                 
                         </div>
                     </div>

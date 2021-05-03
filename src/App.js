@@ -19,13 +19,17 @@ function App() {
 
   return (
      <>
-     <header><Header/></header>
-    
+     <header>
+       <Header/>
+       <IconoWhatsapp/>
+       </header>
+     
      <main>
+       
         <Main2/>
         <Main3/>
         <CarouselMain/>
-        <IconoWhatsapp/>
+       
      </main>
      <footer> <Footer/></footer>
     
