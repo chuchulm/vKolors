@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import img1 from "../../image/logo02.png"
 
 export const Nosotros = () => {
     return (
@@ -7,6 +8,8 @@ export const Nosotros = () => {
     
         <div className="containerNosotros">
         <div> <Link to="/"> <button className="linkNosotros">Inicio</button></Link></div>
+
+            <img src={img1} alt="" />
             <h1>
                 En Pinturas Vkolor de Venezuela sabemos que son tiempos de verdaderos retos; y en el sector industrial hemos cumplido con ser proveedores confiables,
                 comprometidos con mantener la calidad de nuestros productos a precios competitivos. Nos dedicamos a la fabricación de pinturas

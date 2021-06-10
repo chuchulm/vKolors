@@ -34,9 +34,9 @@ export const Footer = () => {
                         <div className="redContainer ">
                         <div className="copy"><p>&copy;2020 TODOS LOS DERECHOS RESERVADOS</p></div> 
                             
-                            <div className="red"><i className="fab fa-instagram redes ins"></i></div>
-                            <div className="red"><i className="fab fa-whatsapp redes what"></i></div>
-                            <div className="red"><i className="fab fa-facebook redes f"></i></div>
+                            <div className="red"><a href="https://www.instagram.com/pinturasvkolor/" target="blank"><i className="fab fa-instagram redes ins"></i></a></div>
+                            <div className="red"><a href="https://api.whatsapp.com/send?phone=+584242015915" target="blank"><i class="fab fa-whatsapp redes what"></i></a></div>
+                            <div className="red"><a href="https://www.facebook.com/Pinturas-Vkolor-103257961949329" target="blank"><i className="fab fa-facebook redes f"></i></a></div>
                                                 
                         </div>
                     </div>
